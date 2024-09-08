@@ -119,3 +119,99 @@ body {
 #current:hover {
     cursor: default;
 }
+
+/*Phone Screen Size (will do after homepage is done)*/
+@media only screen and (max-width: 480px) {
+    header, body, footer, .links {
+        font-size: 6px;
+        color: black;
+        opacity: 0.95;
+        margin: 0px;
+    }
+    
+    body {
+        padding-top: 18px;
+        background-image: url("assets/images/mclegionsbackground.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #header {
+        display: inline-flex;
+        position: fixed;
+        top: 0px;
+        justify-content: center;
+        flex-direction: row;
+        border: 1px solid black;
+        color: black;
+        background-color: blue;
+        width: 100%;
+        height: 18px;
+        align-content: center;
+        opacity: 1;
+        text-align: center;
+    }
+    
+    #linksleft a:hover, #linksright a:hover {
+        background-color: azure;
+        color: deepskyblue;
+    }
+    
+    #linksleft a:active, #linksright a:active {
+        margin-top: 1.5px;
+        color: black;
+        box-shadow: 0px 0px;
+      }
+      
+    
+    #linksleft {
+        align-content: center;
+        width: 25%;
+    }
+    
+    #mainheading {
+        font-size: 13px;
+        font-family: "Sedan SC", serif;
+        text-decoration: underline;
+        color: black;
+    }
+    
+    #mainh {
+        align-content: center;
+        width: 50%;
+    }
+    
+    #mainheading:hover {
+        cursor: default;
+    }
+    
+    #linksright {
+        align-content: center;
+        width: 25%;
+    }
+    
+    .links {
+        text-decoration: none;
+        background-color: #bcfffc;
+        color: #140086;
+        border: 1px solid black;
+        border-radius: 1.5px;
+        margin: 3px;
+        padding: 1.5px;
+        box-shadow: 0px 1.5px;
+    }
+    
+    #openings {
+        margin: 3px;
+        color: #100168;
+        background-color: #3a3a3a;
+        box-shadow: 0px 0px;
+        padding: 1.5px;
+        border: 1px solid black;
+        border-radius: 1.5px;
+    }
+    
+    #openings:hover {
+        cursor: default;
+    }
