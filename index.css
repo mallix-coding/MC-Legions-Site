@@ -542,7 +542,7 @@ body {
     }
     
     #mainheading {
-        font-size: 11px;
+        font-size: 20px;
         font-family: "Sedan SC", serif;
         text-decoration: underline;
         color: black;
@@ -568,17 +568,17 @@ body {
         color: #140086;
         border: 1px solid black;
         border-radius: 2px;
-        margin: 3px;
-        padding: 1px;
+        margin: 5px;
+        padding: 2px;
         box-shadow: 0px 2px;
     }
     
     #openings {
-        margin: 3px;
+        margin: 5px;
         color: #100168;
         background-color: #3a3a3a;
         box-shadow: 0px 0px;
-        padding: 1px;
+        padding: 2px;
         border: 1px solid black;
         border-radius: 2px;
     }
