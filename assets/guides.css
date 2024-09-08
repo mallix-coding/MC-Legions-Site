@@ -7,7 +7,7 @@ header, body, footer, .links {
 
 body {
     padding-top: 70px;
-    background-image: url(../resources/images/mclegionsbackground.png);
+    background-image: url(images/mclegionsbackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
